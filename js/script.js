@@ -6,7 +6,9 @@ createApp ({
     data(){
 
         return {
-            message : 'hello Vue!'
+            message : 'hello Vue!',
+            immagine: '/img/immagine.jpg'
         }
     }
 }).mount('#app')
+
